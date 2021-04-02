@@ -1,0 +1,15 @@
+
+<h1 class="text-center">You joined the network of users</h1>
+<div class="row mt-5">
+    <div class="col-md-4 mb-3" *ngFor="let user of users">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">{{user.name}}</h5>
+          <p class="card-text">Joined on {{user.createdAt}}</p>
+        </div>
+        <div class="card-footer text-muted">
+          welcome to the network
+        </div>
+      </div>
+    </div>
+  </div>
